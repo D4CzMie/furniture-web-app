@@ -1,0 +1,23 @@
+.Form {
+    background-color: deepskyblue;
+    height: fit-content;
+    padding: 8px 16px;
+    width: fit-content;
+    border-radius: 8px;
+}
+
+.test {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputting {
+    display: flex;
+    color: greenyellow;
+    background-color: red;
+    margin: 10px 5px;
+}
+

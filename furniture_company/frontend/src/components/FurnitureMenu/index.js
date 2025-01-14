@@ -1,0 +1,1 @@
+export {FurMenu} from './FurnitureMenu.jsx';

@@ -1,0 +1,1 @@
+export { ReqisterForm } from "./ReqisterForm"
