@@ -4,7 +4,6 @@ import "./style.css"
 import {Footer} from "./components/Footer/index.js";
 import {RouterProvider} from "react-router-dom";
 import {router} from "./routes/routes.js";
-import {ReqisterForm} from "./components/ReqisterForm/index.js";
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>

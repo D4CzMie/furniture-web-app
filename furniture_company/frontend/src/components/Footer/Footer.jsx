@@ -1,6 +1,6 @@
 import styles from './Footer.module.css'
 
-export const Footer = (props) => {
+export const Footer = () => {
     return <footer className={styles.Footer}>
         <div className={styles.Left}>
             <div style={{fontSize: 24}}>

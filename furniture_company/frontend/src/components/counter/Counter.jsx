@@ -2,7 +2,7 @@ import styles from './Counter.module.css';
 import {useState} from "react";
 
 
-export const Counter = (props) => {
+export const Counter = () => {
     const [count, setCount] = useState(0);
     return <div className={styles.counter}>
         <p>{count}</p>
