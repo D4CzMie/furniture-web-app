@@ -1,4 +1,5 @@
 import styles from './MainMenu.module.css';
+import {Link} from "react-router-dom";
 
 export const MainMenu = () => {
     return <div>
@@ -17,17 +18,7 @@ export const MainMenu = () => {
                 Мы делаем мебель под ваш заказ
             </div>
             <button className={styles.buttMore}>
-                <a href="#">Подробнее</a>
-            </button>
-        </div>
-        <div className={styles.transition}></div>
-        <div className={styles.blackBlock} style={{gap: 48}}>
-            <div style={{fontSize: 64}}> Ландшафт</div>
-            <div style={{fontFamily: "Inter", fontWeight: 200}}>
-                Разработка дизайна ландшафта
-            </div>
-            <button className={styles.buttMore}>
-                <a href="#"> Подробнее </a>
+                <Link to="furniture" onClick={() => window.scrollTo(0, 0)}>Подробнее</Link>
             </button>
         </div>
     </div>

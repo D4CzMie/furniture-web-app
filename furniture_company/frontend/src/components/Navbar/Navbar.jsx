@@ -39,11 +39,12 @@ export const Navbar = () => {
                 </button>
             </div>
         </Modal>
-        <NavLink to="/" className={styles.logo}>Лого</NavLink>
+
+        <NavLink to="/" onClick={() => window.scrollTo(0, 0)} className={styles.logo}>Лого</NavLink>
 
         <nav className={styles.navbar}>
-            <Link to="/furniture">Мебель</Link>
-            <Link to="/about">О нас</Link>
+            <Link to="/furniture" onClick={() => window.scrollTo(0, 0)}>Мебель</Link>
+            <Link to="/about" onClick={() => window.scrollTo(0, 0)}>О нас</Link>
         </nav>
 
         <button onClick={toggleModal} className={styles.button}>

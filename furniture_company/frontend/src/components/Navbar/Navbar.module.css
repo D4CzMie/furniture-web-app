@@ -77,13 +77,17 @@
     font-weight: 800;
 }
 
-.navbar a {
+.navbar a{
+    display: inline-block;
     position: relative;
     font-size: 20px;
     color: white;
     font-weight: 200;
     margin: 0 24px;
+    width: 73px;
+    text-align: center;
 }
+
 
 .adidas {
     background-color: #7B001C;

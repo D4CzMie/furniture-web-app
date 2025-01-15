@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 export const CategoryItem = ({name, img}) => {
     return (
         <div className={styles.menu}>
-            <img className={styles.image} src={img} alt={"фотография"}/>
+            <img className={styles.image} src={img} alt={""}/>
             {name}
             <button className={styles.buttMore}>
                 <a href="#">Подробнее</a>
