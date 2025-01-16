@@ -1,5 +1,6 @@
 import styles from "./CategoryItem.module.css";
 import PropTypes from "prop-types";
+import {Link} from "react-router-dom";
 
 
 export const CategoryItem = ({name, img}) => {
@@ -8,7 +9,7 @@ export const CategoryItem = ({name, img}) => {
             <img className={styles.image} src={img} alt={""}/>
             {name}
             <button className={styles.buttMore}>
-                <a href="#">Подробнее</a>
+                <Link to="list">Подробнее</Link>
             </button>
         </div>
     )

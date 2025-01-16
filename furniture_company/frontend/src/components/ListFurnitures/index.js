@@ -1,0 +1,1 @@
+export {ListFurnitures} from "./ListFur.jsx"
