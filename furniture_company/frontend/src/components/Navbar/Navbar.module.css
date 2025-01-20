@@ -1,0 +1,107 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 65px;
+    background-color: #43403f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    font-family: "Inter", serif;
+}
+
+.logo {
+    margin: 0 40px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.modal {
+    min-width: 200px;
+    min-height: 150px;
+    width: fit-content;
+    height: fit-content;
+    border: 3px solid #a30022;
+    border-radius: 16px;
+    padding: 30px 0;
+    background-color: gray;
+    opacity: 97%;
+    margin: 30vh auto auto auto;
+}
+
+.modal__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    font-family: "Inter", serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: white;
+}
+
+.textInput {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+
+}
+
+.in {
+    position: relative;
+    background-color: black;
+    opacity: 98%;
+    padding: 4px;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    width: 80%;
+    font-family: "Inter", serif;
+    font-weight: 800;
+}
+
+.navbar a{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+    margin: 0 24px;
+    width: 73px;
+    text-align: center;
+}
+
+
+.adidas {
+    background-color: #7B001C;
+    border-radius: 5px;
+    width: 30px;
+    height: 7px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 0;
+    margin: 0 40px;
+    background-color: transparent;
+    border: none;
+}
